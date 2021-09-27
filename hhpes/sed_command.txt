@@ -1,1 +1,5 @@
-sed -i 's/.*/[&]/' hhpes_dat_scad.txt
+// turn the data into [x,y,z] coordinates
+// sub each line with [] around it
+// second sub the space between column with a comma
+
+sed -E "s/.*/[&]/g; s/[[:space:]]+/,/g" input_file.txt > output_file.txt
