@@ -4,6 +4,6 @@ OpenSCAD file for data:  hhpes_data.scad
 
 Stretch stl model (hhpes_wide.stl) in slicer, Z: 200%
 
-Included Gcode from cura slicer
+Included Gcode from cura slicer, ready for printing (already stretched).
 
 
